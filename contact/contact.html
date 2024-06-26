@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+          <ul>
+            <a href="/home/index.html">Home</a>
+            <a href="/offers/offer.html">Offers</a>
+            <a href="/contact/contact.html">Contact us</a>
+          </ul>
+        </div>
+      </nav>
+    <div class="container">
+        <h1 class="title">Contact Us</h1>
+        <section class="contact-section">
+            <h2 class="section-title">We'd love to hear from you!</h2>
+            <form id="contactForm" action="submit_contact.php" method="POST">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="subject">Subject:</label><br>
+                <input type="text" id="subject" name="subject" required><br><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                
+                <button type="submit" id="contactSubmitBtn">Send Message</button>
+            </form>
+            <div id="successMessage" class="success-message" style="display: none;">Thank you for contacting us! We will get back to you soon.</div>
+        </section>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="social-media">
+                <h3>Follow Us</h3>
+                <a href="https://facebook.com" target="_blank">Facebook</a>
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+            </div>
+            <div class="contact-info">
+                <h3>Contact Us</h3>
+                <p>Phone: +1 234 567 890</p>
+                <p>Phone: +1 987 654 321</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="contact.js"></script>
+</body>
+</html>

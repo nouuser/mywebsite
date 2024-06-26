@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency Offers</title>
+    <link rel="stylesheet" href="offer.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+          <ul>
+            <a href="/home/index.html">Home</a>
+            <a href="/offers/offer.html">Offers</a>
+            <a href="/contact/contact.html">Contact us</a>
+          </ul>
+        </div>
+      </nav>
+    <div class="container">
+        <h1 class="title">Exclusive Travel Offers</h1>
+        <div class="offers">
+            <div class="offer">
+                <img src="/bali3.jpg" alt="Destination 1" class="offer-image">
+                <div class="offer-details">
+                    <h2 class="offer-title">Bali</h2>
+                    <p class="offer-description">Enjoy a week in a tropical paradise with all-inclusive amenities.</p>
+                    <p class="offer-price">$1,250 per person</p>
+                    <button class="offer-button">Book Now</button>
+                </div>
+            </div>
+            <div class="offer">
+                <img src="/spain.jpg" alt="Destination 2" class="offer-image">
+                <div class="offer-details">
+                    <h2 class="offer-title">Spain</h2>
+                    <p class="offer-description">Experience the thrill of a mountain adventure with guided tours.</p>
+                    <p class="offer-price">$850 per person</p>
+                    <button class="offer-button">Book Now</button>
+                </div>
+            </div>
+            <div class="offer">
+                <img src="/mykonos.jpg" alt="Destination 3" class="offer-image">
+                <div class="offer-details">
+                    <h2 class="offer-title">Mykonos</h2>
+                    <p class="offer-description">Explore the vibrant city life with our exclusive city escape package.</p>
+                    <p class="offer-price">$950 per person</p>
+                    <button class="offer-button">Book Now</button>
+                </div>
+            </div>
+                <div class="offer">
+                    <img src="/tunisia2.jpg" alt="Destination 1" class="offer-image">
+                    <div class="offer-details">
+                        <h2 class="offer-title">Tunisia</h2>
+                        <p class="offer-description">Enjoy a week in a tropical paradise with all-inclusive amenities.</p>
+                        <p class="offer-price">$1,200 per person</p>
+                        <button class="offer-button">Book Now</button>
+                    </div>
+                </div>
+                <div class="offer">
+                    <img src="/sychelles.jpg" alt="Destination 2" class="offer-image">
+                    <div class="offer-details">
+                        <h2 class="offer-title">Sychelles</h2>
+                        <p class="offer-description">Experience the thrill of a mountain adventure with guided tours.</p>
+                        <p class="offer-price">$900 per person</p>
+                        <button class="offer-button">Book Now</button>
+                    </div>
+                </div>
+           
+               
+                    <div class="offer">
+                        <img src="/zanzibar.jpg" alt="Destination 3" class="offer-image">
+                        <div class="offer-details">
+                            <h2 class="offer-title">Zanzibar</h2>
+                            <p class="offer-description">Explore the vibrant city life with our exclusive city escape package.</p>
+                            <p class="offer-price">$950 per person</p>
+                            <button class="offer-button">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="offer">
+                        <img src="/turkiey.jpg" alt="Destination 2" class="offer-image">
+                        <div class="offer-details">
+                            <h2 class="offer-title">Turkey</h2>
+                            <p class="offer-description">Experience the thrill of a mountain adventure with guided tours.</p>
+                            <p class="offer-price">$750 per person</p>
+                            <button class="offer-button">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="offer">
+                        <img src="/USA.jpg" alt="Destination 3" class="offer-image">
+                        <div class="offer-details">
+                            <h2 class="offer-title">USA</h2>
+                            <p class="offer-description">Explore the vibrant city life with our exclusive city escape package.</p>
+                            <p class="offer-price">$1.000 per person</p>
+                            <button class="offer-button">Book Now</button>
+                        </div>
+                    </div>
+
+                    <div class="offer">
+                        <img src="/travel.jpg" alt="Destination 3" class="offer-image">
+                        <div class="offer-details">
+                            <h2 class="offer-title">Brazil</h2>
+                            <p class="offer-description">Explore the vibrant city life with our exclusive city escape package.</p>
+                            <p class="offer-price">$1.500 per person</p>
+                            <button class="offer-button">Book Now</button>
+                        </div>
+                    </div>
+                      <!-- New section for vacation planning -->
+                      <div>
+        <section class="vacation-planning">
+            <h2 class="section-title">Let's Plan Your Vacation</h2>
+            <form action="submit.php" method="POST"> 
+                <label for="destination">Destination:</label><br>
+                <input type="text" id="destination" name="destination" required><br><br>
+                
+                <label for="start-date">Start Date:</label><br>
+                <input type="date" id="start-date" name="start-date" required><br><br>
+                
+                <label for="duration">Duration (in days):</label><br>
+                <input type="number" id="duration" name="duration" min="1" required><br><br>
+                
+                <label for="additional-info">Additional Information:</label><br>
+                <textarea id="additional-info" name="additional-info" rows="4" cols="50"></textarea><br><br>
+                
+                <button type="submit">Plan My Vacation</button>
+            </form>
+        </section> 
+    </div>
+</body>
+</html>
